@@ -1,2 +1,2 @@
 #!/bin/bash
-python lena.py
+python2 lena.py $@

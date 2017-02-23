@@ -1,9 +1,10 @@
 #!/usr/bin/env python2
 from PIL import Image, ImageDraw
+import sys
 
-lena = Image.open('lena.png')
+lena = Image.open(sys.argv[1])
 lenapix = lena.load()
-mody = Image.open('lena_modified.png')
+mody = Image.open(sys.argv[2])
 modypix = mody.load()
 draw = ImageDraw.Draw(mody)
 

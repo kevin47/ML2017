@@ -1,2 +1,2 @@
 #!/bin/bash
-python matrix.py
+python2 matrix.py $@

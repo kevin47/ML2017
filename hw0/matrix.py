@@ -1,8 +1,9 @@
 #!/usr/bin/env python2
 import numpy as np
+import sys
 
-fa = open('matrixA.txt', 'r')
-fb = open('matrixB.txt', 'r')
+fa = open(sys.argv[1], 'r')
+fb = open(sys.argv[2], 'r')
 
 def parse_matrix(A):
 	for i, lines in enumerate(A):
