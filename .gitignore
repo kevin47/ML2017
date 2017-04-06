@@ -1,4 +1,9 @@
+# this file
+.gitignore
+
 # hw2 data
 hw2/X_test
 hw2/X_train
 hw2/Y_train
+hw2/simple.csv
+hw2/submit.csv
