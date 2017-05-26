@@ -76,6 +76,7 @@ def main():
 	(_, X_test,_) = read_data(test_path,False)
 	
 	### tokenizer for all data
+	tag_list = pickle.load(open('tag_list.p', 'rb'))
 	tokenizer = pickle.load(open('tokenizer.p', 'rb'))
 	word_index = tokenizer.word_index
 
